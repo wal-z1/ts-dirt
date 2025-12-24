@@ -81,3 +81,17 @@ let onlythesevalues: 1 | 2 | 3;
 function onlytakethefollwoignvalues(val: 24 | 28 | 32) {
 	console.log(`passed in ${val}`);
 }
+
+type strornum = string | number;
+
+let anothermultivar: strornum;
+
+type book = {
+	title: string;
+	description: string;
+};
+
+let mybook: book = {
+	title: "TypeScript",
+	description: "TS.",
+};
